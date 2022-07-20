@@ -165,3 +165,11 @@ a{
         display: none;
     }
 }
+@media only screen and (max-width: 600px){
+    .row-2{
+        text-align: center;
+    }
+    .col-2{
+        flex-basis: 100%;
+    }
+}
