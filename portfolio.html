@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width initial-scale = 1.0 ">
+        <title>Portfolio</title>
+        <meta charset="UTF-8">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Ibarra+Real+Nova&family=Splash&display=swap');
+            </style>
+        <link rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="header">
+        <div class="container">
+            <div class = "navbar">
+                <div class="logo">
+                    <img src="Portfolio/Logo.png" width="125px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="portfolio.html">Home</a></li>
+                        <li><a href="">Projects</a></li>
+                        <li><a href="">CV</a></li>
+                    </ul>
+                </nav>
+                <img src= "Portfolio/menu.png" class = "menu-icon" onclick="menutoggle()">
+
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <img src="Portfolio/background2.jpg" width="150px">
+                    <h1>Ansel Solumgolie Ike-Okafor</h1>
+                    <p>Friendly Neighborhood Developer</p>
+                    <a href="contactme.html" class="btn">CONTACT ME</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="about">
+        <div class="small-container">
+            <div class="row">
+                <h1 class="title">ABOUT ME</h1>
+            </div>
+            <div class="row">
+                <p>There isn't much I can say about myself as a person. I'm a 17 year old Nigerian male
+                    with a distinct ability to notice and recommend solutions for problems. I've always been a builder. From portable fans in my early years to mobile applications in my early teens. In short, I'm a web and mobile application developer with 2 years of experience with HTML, CSS, Django, Kivy Framework and python.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="services">
+        <div class="small-container">
+            <div class="row">
+                <h1 class="title">SERVICES</h1>
+            </div>
+            <div class="row">
+                <p>I offer exceptional, detailed and unique web and mobile applications to those who seek it.
+                </p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="projects">
+        <div class="small-container">
+            <div class="row">
+                <h1 class="title2">MY PROJECTS</h1>
+            </div>
+            <div class="row">
+                <p>Below is a preview of the projects I've made for personal, private and organizational use   
+                </p>
+                <a href="" class="btn">CLICK HERE</a>
+            </div>
+        </div>
+    </div>
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px"){
+                MenuItems.style.maxHeight = "200px"
+            }
+            else{
+                MenuItems.style.maxHeight == "0px"
+            }
+        }
+    </script>
+      
+    </body>
+</html>
